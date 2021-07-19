@@ -11,7 +11,7 @@ def count_digits(number):
     Return count of digits
     """
     count = 0
-    while n != 0:
+    while number != 0:
         n //= 10
         count += 1
     return count
