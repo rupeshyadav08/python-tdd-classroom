@@ -12,6 +12,6 @@ def count_digits(number):
     """
     count = 0
     while number != 0:
-        n //= 10
+        number //= 10
         count += 1
     return count
